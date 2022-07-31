@@ -1,0 +1,42 @@
+@import "~bootstrap-select/sass/bootstrap-select.scss";
+body {
+    direction: rtl;
+    text-align: right !important;
+    font-family: "Vazir" !important;
+}
+
+#registerCheckBox::before {
+    right: -1.5rem;
+}
+
+#registerCheckBox::after {
+    right: -1.5rem;
+}
+
+// Bootstrap Paginate RTL
+.page-item:first-child .page-link {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+}
+
+// Bootstrap Select RTL & Customize
+.filter-option-inner-inner {
+    text-align: right;
+}
+
+.bootstrap-select .dropdown-menu li {
+    text-align: right;
+}
+
+.bootstrap-select.show-tick .dropdown-menu li a span.text {
+    margin-right: 10px;
+}

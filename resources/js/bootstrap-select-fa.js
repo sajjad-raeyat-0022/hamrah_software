@@ -1,0 +1,1 @@
+require('bootstrap-select/dist/js/i18n/defaults-fa_IR');
