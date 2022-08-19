@@ -9,9 +9,9 @@ class SmsChannel
 {
     public function send($notifiable, Notification $notification)
     {
-        
+        return 'Done!';
         // $receptor = $notifiable->phone_number;
-        $receptor = '09914475240';
+        $receptor = '09221683887';
         $type = 1;
         $template = "HamrahSoftware";
         $param1 = $notification->code;

@@ -51,7 +51,7 @@
                 @endforeach
             @endif
             <div id="pagination" class="container text-center d-flex justify-content-center mb-2">
-                {{ $courses->withQueryString()->onEachSide(2)->render() }}
+                {{-- {{ $courses->withQueryString()->onEachSide(2)->render() }} --}}
                 {{-- {{ $courses->fragment('courses')->links() }} --}}
                 {{-- {{ $courses->links() }} --}}
             </div>

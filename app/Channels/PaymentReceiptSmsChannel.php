@@ -9,9 +9,9 @@ class PaymentReceiptSmsChannel
 {
     public function send($notifiable, Notification $notification)
     {
-        //return 'Done!';
+        return 'Done!';
         // $receptor = $notifiable->phone_number;
-        $receptor = '09914475240';
+        $receptor = '09221683887';
         $type = 1;
         $template = "HSPayment";
         $param1 = $notification->orderId;

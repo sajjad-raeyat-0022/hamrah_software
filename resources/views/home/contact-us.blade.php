@@ -74,12 +74,12 @@
             </div>
             <div class="contact-info-content d-flex justify-content-center">
                 <i class="far fa-envelope fa-2x text-danger mx-3"></i>
-                <p class="mt-2"><a href="#">{{ $setting->gmail }}</a></p>
+                <p class="mt-2"><a href="mailto:{{ $setting->gmail }}">{{ $setting->gmail }}</a></p>
             </div>
             <div class="contact-info-content d-flex justify-content-center">
                 <i class="fas fa-mobile-alt fa-2x text-danger mx-3"></i>
-                <p class="mt-2"><a href="#">{{ $setting->telephone }}</a> / <a
-                        href="#">{{ $setting->telephone2 }}</a></p>
+                <p class="mt-2"><a href="call:{{ $setting->telephone }}">{{ $setting->telephone }}</a> / <a
+                        href="call:{{ $setting->telephone2 }}">{{ $setting->telephone2 }}</a></p>
             </div>
             <div class="contact-info-content d-flex justify-content-center">
                 <i class="fab fa-whatsapp fa-2x text-danger mx-3"></i>
